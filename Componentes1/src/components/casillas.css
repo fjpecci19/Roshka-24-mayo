@@ -1,0 +1,36 @@
+.Casillero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Casilla{
+    width: 610px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 70px;
+    font-size: 20px;
+    border: 1px solid red;
+    flex: 1;
+}
+
+.Casilla2{
+    width: 610px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 70px;
+    font-size: 20px;
+    border: 1px solid red;
+    flex: 1;
+}
+
+h2{
+    width: 500px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.flecha{
+    width: 10px;
+}
