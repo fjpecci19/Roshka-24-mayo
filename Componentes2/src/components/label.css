@@ -1,0 +1,25 @@
+.Label{
+    width: 1360px;
+    background-color: green;
+    padding: 70px;
+    border: 1px solid white;
+    
+}
+
+.flecha{
+    text-align: right;
+}
+
+h1{
+    background-color: wheat;
+    color: black;
+}
+
+h2{
+    background-color: white;
+    color: black;
+}
+.lbl{
+    display: flex;
+    justify-content: space-between;
+}
