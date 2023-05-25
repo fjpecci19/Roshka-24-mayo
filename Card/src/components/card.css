@@ -11,9 +11,19 @@
     max-width: 100%;
     height: auto;
 }
+
+.container img:hover {
+    cursor: pointer;
+}
+
   
 .container p {
     margin-top: 10px;
+}
+
+.container p:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
 }
 
 .text{
@@ -35,4 +45,8 @@
 .button:hover{
     cursor: pointer;
     background-color: whitesmoke;
+}
+
+h2:hover{
+    cursor: pointer;
 }
