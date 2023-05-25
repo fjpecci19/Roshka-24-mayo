@@ -1,20 +1,32 @@
+import React from 'react'
 import './App.css'
 
 function App() {
   return (
-    <div className="footer">
-        <span>
-          <span className="text">Products</span><br />
-          <span className="products">ICM</span><br />
-          <span className="products">DMS</span><br />
-          <span className="products">CRM</span><br />
-        </span>
-        <span>
-          <span className="text2">Resources</span><br />
-          <span className="resources">Case Studies</span>
-        </span>
+    <div className="container">
+      <div className="column">
+        <img src="images/Albirroja.jpg"/>
+      </div>
+      <div className="column">
+        <h2>Jugadores</h2>
+      </div>
+      <div className="column">
+        <h2>Partidos</h2>
+      </div>
+      <div className="column">
+        <h2>Entradas</h2>
+      </div>
+      <div className="column">
+        <h2>Historia</h2>
+      </div>
+      <div className="column">
+        <h2>Ingresar</h2>
+      </div>
+      <div className="column">
+        <h2>Demo</h2>
+      </div>
     </div>
-  )
+  );
 }
 
 export default App
