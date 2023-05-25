@@ -17,10 +17,10 @@ function Casillas({combo}){
     
     return (
         <div className="Casillero">
-            <div className="Casilla" ><h1 className="text"><span>{combo.name}</span><span onClick={toggle}>{showSubCasilla ? "🢂" : "🢃"}</span></h1>
+            <div className="Casilla" ><h1 className="text"><span>{combo.name}</span><span className="flecha" onClick={toggle}>{showSubCasilla ? "🢂" : "🢃"}</span></h1>
                 <h2>{showSubCasilla ? "" : combo.description}</h2><h2>{showSubCasilla ? "" : <img src={combo.imagen}/>}</h2>
             </div>
-            <div className="Casilla2" ><h1 className="text"><span>{combo.name}</span><span onClick={toggle2}>{mostrarSubCasilla ? "🢂" : "🢃"}</span></h1>
+            <div className="Casilla2" ><h1 className="text"><span>{combo.name}</span><span className="flecha" onClick={toggle2}>{mostrarSubCasilla ? "🢂" : "🢃"}</span></h1>
                 <h2>{mostrarSubCasilla ? "" : combo.description}</h2><h2>{mostrarSubCasilla ? "" : <img src={combo.imagen}/>}</h2>
             </div>
         </div>

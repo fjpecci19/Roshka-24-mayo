@@ -28,14 +28,14 @@ h1{
     border: 1px solid red;
 }
 
-h1:hover{
-    background-color: yellow;
-}
-
 h2{
     width: 610px;
     font-size: 15px;
     background-color: white;
+}
+
+.flecha:hover{
+    background-color: yellow;
 }
 
 .text{
