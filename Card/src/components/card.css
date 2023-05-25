@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+  }
+  
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.container p {
+    margin-top: 10px;
+}
+
+.text{
+    width: 224px;
+    border: 1px solid black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 6px;
+    background-color: white;
+    color: black
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}

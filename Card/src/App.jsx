@@ -1,8 +1,14 @@
+import React from 'react'
 import './App.css'
+import Card from './components/card'
+
+
 
 function App() {
   return (
-    <img className="imagen" src="images/GunsNRoses.png"/>
+    <div>
+      <Card/>
+    </div>
   )
 }
 
