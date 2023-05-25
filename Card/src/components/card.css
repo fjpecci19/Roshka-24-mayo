@@ -45,8 +45,10 @@
 .button:hover{
     cursor: pointer;
     background-color: whitesmoke;
+    color: red;
 }
 
 h2:hover{
     cursor: pointer;
+    color: red;
 }
