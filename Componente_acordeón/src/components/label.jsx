@@ -10,8 +10,8 @@ function Label({card}){
     }
 
     return (
-        <div className="Label"><h1 className="text"><span>Label</span><span onClick={toggle}>{showSubLabel ? "🢂" : "🢃"}</span></h1>
-            <h2>{showSubLabel ? "" : card.description}</h2>
+        <div className="Label"><h1 className="text"><span>{card.name}</span><span onClick={toggle}>{showSubLabel ? "╁" : "━"}</span></h1>
+            <h2>{showSubLabel ? "" : card.description.map(item => {return <h2>{item}</h2>})}</h2>
         </div>
     )
 }

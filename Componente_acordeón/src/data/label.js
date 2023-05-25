@@ -1,22 +1,27 @@
 const datos = [
     {
-        description: "vfvidfncjdncidwncuniqnciqncidwbninvfnvuwifchehwcbewbewfeduejbsdkjbsadm,snhdwovcdscnkdscbdsuohew0ehehehKSNKSNCEWWW"
+        name: "U2",
+        description: ["One", "Stay", "Stuck in a moment", "Hold me", "Elevation"]
     },
 
     {
-        description: "kfiudwfhweububcqdhqqh9qhd9qehqeheiEFOEIUWFEHFEHWDHE89D89dhdewudhe0ewfeiwfruhfuirhfiuewhfuheufheufhewuhfehfiueuuii"
+        name: "Red Hot Chili Peppers",
+        description: ["Under the bridge", "Otherside", "Can't Stop", "Californication", "Dark necessities"]
     },
 
     {
-        description: "dwkfeiuwfhw8d8cqegcgqwdhqehqe8qee8vlpfmviunifbefucewhfuew8hfu9ewh9ufhu9ehu9fheufhuehfuefheu8HUDISAHDSCNJDNEUFHuhf"
+        name: "Keane",
+        description: ["Sovereign light cafe", "Silenced by the night", "Somewhere only we know", "Disconnected", "Everybody's changing"]
     },
 
     {
-        description: "dwidasiuaasdgcegcgec87ege8d7gd8gdgfeiwhfhf8h8dhqew8feg8w7fg8gcaskjchsawuf9uef89hewfh8wffhsdiufhe9fhef8ef8egf8gfeg"
+        name: "The Killers",
+        description: ["Human", "Mr. Brightside", "Miss Atomic Bomb", "Here with me", "Read my mind"]
     },
 
     {
-        description: "defew9eheddheibfeufbewubevebbebebedkdn0iuvh8dv87rw8gve87wgf8ygiufghuidfgcgdiusagf79egwf8gewyvvgdvghdsiugv7dsfeeee"
+        name: "David Guetta",
+        description: ["Titanium", "Sexy Bitch", "Love tonight", "One love", "I'm good"]
     }
 ]
 
