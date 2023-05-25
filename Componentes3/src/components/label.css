@@ -1,13 +1,6 @@
 .Label{
-    width: 1360px;
-    background-color: green;
-    padding: 70px;
-    border: 1px solid white;
-    
-}
-
-.flecha{
-    text-align: right;
+    width: 1500px;
+    background-color: white;
 }
 
 h1{
@@ -16,10 +9,12 @@ h1{
 }
 
 h2{
+    width: 1500px;
     background-color: white;
     color: black;
 }
-.lbl{
+.text{
     display: flex;
     justify-content: space-between;
+    border: 1px solid black;
 }
