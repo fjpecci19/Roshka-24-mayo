@@ -8,9 +8,8 @@
     color: black;
     background-color: white;
     text-align: left;
-    padding: 70px;
+    padding: 50px;
     font-size: 20px;
-    border: 1px solid red;
     flex: 1;
 }
 
@@ -19,18 +18,24 @@
     color: black;
     background-color: white;
     text-align: left;
-    padding: 70px;
+    padding: 50px;
     font-size: 20px;
-    border: 1px solid red;
     flex: 1;
 }
 
+h1{
+    color: black;
+    border: 1px solid red;
+}
+
 h2{
-    width: 500px;
+    width: 610px;
     font-size: 15px;
     background-color: white;
 }
 
-.flecha{
-    width: 10px;
+.text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
 }
