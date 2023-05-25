@@ -39,3 +39,7 @@ h2{
     justify-content: space-between;
     font-size: 20px;
 }
+
+img{
+    zoom: 100%;
+}
