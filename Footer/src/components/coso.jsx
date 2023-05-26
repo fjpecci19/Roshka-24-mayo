@@ -1,5 +1,6 @@
 import React from "react";
 import "./coso.css"
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 function Coso({}){
     return (
@@ -31,7 +32,9 @@ function Coso({}){
       </div>
       <div>
         Contact us <br /><br /><br />
-        <img src="images/Facebook.jpg"/> <img src="images/Linkedin.jpg"/> <img src="images/Twitter.jpg"/>
+        <Link to="https://es-la.facebook.com/"><img src="images/Facebook.jpg"/></Link> <Link to="https://es.linkedin.com/"><img src="images/Linkedin.jpg"/></Link> <Link to="https://twitter.com/?lang=es"><img src="images/Twitter.jpg"/></Link><br /><br /><br />
+        --------------------------------- <br />
+        @2023.  All rights reserved
       </div>
     </div>
     )
