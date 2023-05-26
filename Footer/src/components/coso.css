@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkblue;
+    height: 220px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+  }
+  
+  .coso{
+    font-size: 12px;
+    color: whitesmoke;
+    padding: 1px;
+  }
+  
+  .coso:hover{
+    cursor: pointer;
+    color: red;
+  }
+  
+  img{
+    width: 30px;
+    height: 30px;
+    justify-content: space-between;
+  }
+  
+  img:hover{
+    cursor: pointer;
+  }
